@@ -1,0 +1,24 @@
+<style>
+p { color:#331B18}
+h1 {color:#331B18}
+
+body { background-image: url(cookieback.jfif); 
+background-size: 600px 700px ;}
+header {
+    background-image: url(icing.png);
+    padding: 30px;
+    text-align: center;
+    font-size: 50px;
+    color: black;
+  }
+nav {
+    float: left;
+    width: 8%;
+    height: 2100px; 
+    background: #ccc;
+    padding: 20px;
+}
+nav ul {
+    list-style-type: none;
+    padding: 0;
+  }
