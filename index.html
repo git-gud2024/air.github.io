@@ -8,6 +8,7 @@
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
   <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet" type="text/css">
   <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet" type="text/css">
+  <link href="ocsred.png" rel="icon" type="image/png" />
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
   <style>
@@ -16,14 +17,26 @@
     color: black;
   }
   marquee { 
-    color:red;
+    color:#a51f2f;
     font-size: 30px;
   }
   h3, h4 {
     margin: 10px 0 30px 0;
     letter-spacing: 1px;      
     font-size: 35px;
-    color: red;
+    color: #a51f2f;
+  }
+  h5 {
+    margin: 10px 0 30px 0;
+    letter-spacing: 1px;      
+    font-size: 27px;
+    color: #a51f2f;
+  }
+  h6 {
+    margin: 10px 0 30px 0;
+    letter-spacing: 1px;      
+    font-size: 30px;
+    color: #a51f2f;
   }
   .container {
     
@@ -52,11 +65,10 @@
     }
   }
   .bg-1 {
-    background: maroon;
-    color: #bdbdbd;
+    background: #a51f2f;
+    color: #fff;
   }
   .bg-1 h3 {color: #fff;}
-  .bg-1 p {font-style: italic;}
   .list-group-item:first-child {
     border-top-right-radius: 0;
     border-top-left-radius: 0;
@@ -67,7 +79,7 @@
   }
   .thumbnail {
     padding: 0 0 15px 0;
-    background-color:maroon;
+    background-color:#a51f2f;
     border: none;
     border-radius: 0;
   }
@@ -83,7 +95,7 @@
   }
   .btn {
     padding: 10px 20px;
-    background-color: #333;
+    background-color: blue;
     color: #f1f1f1;
     border-radius: 0;
     transition: .2s;
@@ -94,13 +106,14 @@
     color: #000;
   }
   .modal-header, h4, .close {
-    background-color: #333;
-    color: #fff !important;
+
+    color: #000 !important;
     text-align: center;
     font-size: 30px;
   }
   .modal-header, .modal-body {
     padding: 40px 50px;
+    color:black
   }
   .nav-tabs li a {
     color: #777;
@@ -114,7 +127,7 @@
   .navbar {
  
     margin-bottom: 0;
-    background-color: maroon;
+    background-color: #a51f2f;
     border: 0;
     font-size: 17px !important;
 
@@ -129,7 +142,7 @@
   }
   .navbar-nav li.active a {
     color: #fff !important;
-    background-color: maroon !important;
+    background-color: #a51f2f !important;
   }
   .navbar-default .navbar-toggle {
     border-color: transparent;
@@ -166,6 +179,20 @@
     max-width: 100%;
     height: auto;
 }
+.red-text {
+    color: #a51f2f;
+}
+.btn-info {
+    color: #fff;
+    background-color: #17a2b8;
+    border-color: #17a2b8;
+}
+.btn-round {
+    padding: .5rem 1rem;
+    font-size: 1.25rem;
+    line-height: 1.5;
+    border-radius: .3rem;
+}
   </style>
 </head>
 <body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="50">
@@ -184,8 +211,8 @@
       <ul class="nav navbar-nav navbar-right">
         <li><a href="#myPage">About Us</a></li>
         <li><a href="#band">Concerts & Events</a></li>
-        <li><a href="#tour">Members</a></li>
-        <li><a href="#tour">Music</a></li>
+        <li><a href="#members">Members</a></li>
+        <li><a href="#music">Music</a></li>
         <li><a href="#contact">Contact Us</a></li>
 
           </ul>
@@ -280,7 +307,7 @@
 </div>
 
 <!-- Container (TOUR Section) -->
-<div id="tour" class="bg-1">
+<div id="members" class="bg-1">
   <div class="container-fluid">
     <h3 class="text-center"><br>Previous Concerts and Events</h3>
 
@@ -309,129 +336,182 @@
     </div>
   </div>
   <!-- Modal -->
-  <div class="modal fade" id="myModal" role="dialog">
+  <div class="modal fade" id="Lizzy" role="dialog">
     <div class="modal-dialog">
     
       <!-- Modal content-->
       <div class="modal-content">
         <div class="modal-header">
-          <button type="button" class="close" data-dismiss="modal">×</button>
-          <h4><span class="glyphicon glyphicon-lock"></span> Tickets</h4>
+          <h2>Elizabeth Arkell</h2>
         </div>
         <div class="modal-body">
-          <form role="form">
-            <div class="form-group">
-              <label for="psw"><span class="glyphicon glyphicon-shopping-cart"></span> Tickets, $23 per person</label>
-              <input type="number" class="form-control" id="psw" placeholder="How many?">
-            </div>
-            <div class="form-group">
-              <label for="usrname"><span class="glyphicon glyphicon-user"></span> Send To</label>
-              <input type="text" class="form-control" id="usrname" placeholder="Enter email">
-            </div>
-              <button type="submit" class="btn btn-block">Pay 
-                <span class="glyphicon glyphicon-ok"></span>
-              </button>
-          </form>
+          Elizabeth was a music scholar at Ardingly College and organ scholar at Sidney Sussex College, Cambridge, where she read for a degree in music. A Fellow of the Royal College of Organists, Elizabeth is an experienced organist and accompanist, having worked with many choirs and choral societies. Her career in music education has seen her teach in schools in Berkshire, Hampshire and Staffordshire, and she is currently Head of Academic Music and School Organist at Oundle School. Elizabeth is a senior examiner for Pearson GCSE Music and also an examiner for the ABRSM. Elizabeth has been Organist and Director of Music at St John’s in Peterborough since December 2014 and has accompanied Oundle and District Choral Society since 2017.
         </div>
         <div class="modal-footer">
-          <button type="submit" class="btn btn-danger btn-default pull-left" data-dismiss="modal">
-            <span class="glyphicon glyphicon-remove"></span> Cancel
+          <button type="submit" class=" pull-right" data-dismiss="modal" style="border:white; background-color: white;">
+            <p>Close</p>
           </button>
-          <p>Need <a href="#">help?</a></p>
         </div>
       </div>
     </div>
   </div>
+</div>
+<div class="modal fade" id="Quentin" role="dialog">
+  <div class="modal-dialog">
+  
+    <!-- Modal content-->
+    <div class="modal-content">
+      <div class="modal-header">
+        <h2>Quentin Thomas</h2>
+      </div>
+      <div class="modal-body">
+        Quentin Thomas was born into a musical family and became Head Chorister at Westminster Abbey singing for the daily services, many important occasions, recordings, films, tours, and was regularly called upon as a soloist, often recording with Deutsche Grammophon. He gained full scholarships to The King’s School Canterbury, then to Oxford University, to the Guildhall School of Music & Drama for post-graduate studies in Advanced Composition and then Conducting and Repetiteuring, and finally to the National Film & Television School to compose Screen Music. His four Masters’ Degrees and Associateship to the Royal College of Organists are indicative of his diverse interests across the music world that have encompassed composition, conducting, performing and music education.<br><br>
+
+        Quentin has toured extensively as a recitalist and accompanist on both piano and organ appearing in the BBC Proms, on Radio 3 and ClassicFM. He was for three years the invited organist and repetiteur for the European Union Youth Orchestra working closely with guests such as Vladimir Ashkenazy and Sir Colin Davis, and recorded Alison Balsom’s first CD (organ and trumpet) to wide acclaim with EMI.<br><br>
+        
+        Composing hi-lights include two Oscar nominations in Hollywood’s Short Film category; being an in-house composer for a publisher whilst still at school; three operas, one opening a Deutsche Oper am Rhein, Dusseldorf season. He has written diverse works ranging from song cycles to orchestral works, sound designs to choral and dance works for leading artists and ensembles in most of the London major concert venues.<br><br>
+        
+        As a conductor, Quentin has considerable experience in bringing the best out of semi-professional and amateur outfits, be they massed choruses, community choirs, orchestras or school ensembles. He has formed and run many a festival such as the Guildhall School’s Festival of Contemporary Music, and the St John’s Hyde Park Festival. He is presently a trustee of Creative Oundle.<br><br>
+        
+        As an educationalist, Quentin has been Director of Music at Oundle since 2013. He was for eight years Director of Music at Haileybury, taking the choir to the finals of the BBC Songs of Praise Choir of the Year in the three times they entered the competition. Prior to this, he taught at the Yehudi Menuhin School and worked with the London Sinfonietta Education Programme.
+      </div>
+      <div class="modal-footer">
+        <button type="submit" class=" pull-right" data-dismiss="modal" style="border:white">
+          <p>Close</p>
+        </button>
+    </div>
+  </div>
+</div>
 </div>
 <div class="row text-center">
   <br><br><br>
       <div class="col-sm-4">
         <div class="thumbnail2">
-          <p><strong>Paris</strong></p>
-          <p>Friday 27 November 2015</p>
-                    <img class="img-fluid" src="Elizabeth.png" alt="Paris" style="width:80%"><br><br>
-          <button class="btn" data-toggle="modal" data-target="#myModal">Buy Tickets</button>
+          <h5><strong>Accompanist</strong></h5>
+          <h6><strong>Elizabeth Arkell</strong></h6>
+        <img class="img-fluid" src="Elizabeth.png" alt="Paris" style="width:50%"><br><br>
+          <button class="btn-info btn-round" data-toggle="modal" data-target="#Lizzy">Bio</button>
         </div>
       </div>
       <div class="col-sm-4">
         <div class="thumbnail2">
           <h3><strong>Members</strong></h3>
-          <p>Chairman : Jane Piercy-Hughes <br> Treasurers: John Davies <br> Secretary: Janer Ollerenshaw <br> Legal: John Davies <br> Website: Tessa Leuchars</p>
+          <p>Chairman : Jane Piercy-Hughes <br> <br>Treasurers: John Davies <br><br> Secretary: Janer Ollerenshaw <br><br> Legal: John Davies <br><br> Website: Tessa Leuchars</p>
         </div>
       </div>
       <div class="col-sm-4">
         <div class="thumbnail2">
-          <img src="sanfran.jpg" alt="San Francisco" width="400" height="300">
-          <p><strong>San Francisco</strong></p>
-          <p>Sunday 29 November 2015</p>
-          <button class="btn" data-toggle="modal" data-target="#myModal">Buy Tickets</button>
+          <h5><strong>Musical Director & Conductor</strong></h5>
+          <h6><strong>Quentin Thomas</strong></h6>
+          <img src="Quentin.png" alt="San Francisco" style="width:50%">   <br><br>
+          <button class="btn-info btn-round" data-toggle="modal" data-target="#Quentin">Bio</button>
         </div>
       </div>
     </div>
-<!-- Container (Contact Section) -->
-<div id="contact" class="container">
-  <h3 class="text-center">Contact</h3>
-  <p class="text-center"><em>We love our fans!</em></p>
-
-  <div class="row">
-    <div class="col-md-4">
-      <p>Fan? Drop a note.</p>
-      <p><span class="glyphicon glyphicon-map-marker"></span>Chicago, US</p>
-      <p><span class="glyphicon glyphicon-phone"></span>Phone: +00 1515151515</p>
-      <p><span class="glyphicon glyphicon-envelope"></span>Email: mail@mail.com</p>
-    </div>
-    <div class="col-md-8">
-      <div class="row">
-        <div class="col-sm-6 form-group">
-          <input class="form-control" id="name" name="name" placeholder="Name" type="text" required>
-        </div>
-        <div class="col-sm-6 form-group">
-          <input class="form-control" id="email" name="email" placeholder="Email" type="email" required>
-        </div>
-      </div>
-      <textarea class="form-control" id="comments" name="comments" placeholder="Comment" rows="5"></textarea>
-      <br>
-      <div class="row">
-        <div class="col-md-12 form-group">
-          <button class="btn pull-right" type="submit">Send</button>
-        </div>
-      </div>
-    </div>
+<div id="music" class="container text-center">
+    <h3><b>Why we enjoy singing with OCDS</b></h3>
+    "I enjoy singing with the choir because the practicing is pleasingly challenging with lovely results when it all comes together. And Quentin is a charismatic, humorous and talented leader."
+    
+    <p> &#8212; Anne</p>
+    "ODCS is the most friendly, relaxed and enjoyable choral society I have ever belonged to."
+    
+    <p>&#8212; Trisha</p>
+    "I love the thrill of singing in 4-part harmony. It gives me that tingling feeling!"
+    
+    <p>&#8212;Clare</p>
+    " Singing is the perfect form of exercise and relaxation, focussing your mind, whatever the day has thrown at you!"
+    
+    <p>&#8212;Tessa</p>
+    <br>
   </div>
-  <br>
-  <h3 class="text-center">From The Blog</h3>  
-  <ul class="nav nav-tabs">
-    <li class="active"><a data-toggle="tab" href="#home">Mike</a></li>
-    <li><a data-toggle="tab" href="#menu1">Chandler</a></li>
-    <li><a data-toggle="tab" href="#menu2">Peter</a></li>
-  </ul>
+  <div class="modal fade red-text" id="priv" role="dialog">
+    <div class="modal-dialog">
+    
+      <div class="modal-content">
+        <div class="modal-header">
+          <h2>Privacy Policy</h2>
+          <button class="close" data-dismiss="modal" type="button">&times;</button>
+        </div>
+        <div class="modal-body red-text">
+          At Oundle & District Choral Society, we always respect your personal privacy. We do collect information from you, but it is our company policy and priority to ensure that all personal information remains private and secure. To earn your trust and confidence in the internet and in Oundle & District Choral Society, we are disclosing our privacy practices and the uses of the information we gather. To protect your privacy, Oundle &amp; District Choral Society:
+          <ul>
+            <li>Will not release any information about you without first obtaining your consent, unless required to do so by law or in the good-faith belief that such action is necessary in order to conform to the edicts of the law or comply with a legal process served on our company.</li>
+            <li>Will not knowingly use any information from children younger than 16 without parental consent &bull;</li>
+            <li>Will inform you when we change our privacy policy, either by e-mail or via a link on our home page</li>
+          </ul>
+          <p>Oundle &amp; District Choral Society reserves the right to amend this Privacy Statement at any time without prior notice, and only the current Privacy Statement may be deemed effective.</p>
 
-  <div class="tab-content">
-    <div id="home" class="tab-pane fade in active">
-      <h2>Mike Ross, Manager</h2>
-      <p>Man, we've been on the road for some time now. Looking forward to lorem ipsum.</p>
-    </div>
-    <div id="menu1" class="tab-pane fade">
-      <h2>Chandler Bing, Guitarist</h2>
-      <p>Always a pleasure people! Hope you enjoyed it as much as I did. Could I BE.. any more pleased?</p>
-    </div>
-    <div id="menu2" class="tab-pane fade">
-      <h2>Peter Griffin, Bass player</h2>
-      <p>I mean, sometimes I enjoy the show, but other times I enjoy other things.</p>
+          <p>1. What general information does Oundle &amp; District Choral Society collect about me and how is it used? When you visit the Oundle &amp; District Choral Society web site, we collect some basic information about your computer, such as: IP address (your computer&#39;s unique signature). Operating system (e.g., Windows XP). Browser software (e.g., Microsoft Internet Explorer, Firefox). Internet Service Provider (e.g., Pipex, Demon, AOL, etc.) Other numeric codes used to identify a computer. The information we collect is aggregated to reflect the population and not focused on individuals. We use it to help us better understand the people who visit the Oundle &amp; District Choral Society web site. In addition, like many other sites with paid advertising, we disclose some of this aggregate information to advertisers to inform them of the number of people who have seen and clicked on their links or advertisements.</p>
+
+          <p>2. What personal information does Oundle &amp; District Choral Society collect about me and how is it used? During the process of completing our email form, we ask you to supply personal information, including your name and an e-mail address. Any information submitted is kept for our records only. It is never passed on to third parties, nor is it added to any list or used to send unsolicited e-mail or correspondence of any type.</p>
+
+          <p>3. How do third-party advertisers use my information? Oundle &amp; District Choral Society does not pass on any personal information of any description to third-party advertisers. Any information we pass on is of a general nature as outlined above regarding numbers of visitors, page views, etc. If you receive an email from a third party stating that it is associated with Oundle &amp; District Choral Society, yet you do not recall asking for the information, please follow the third party&#39;s removal procedures. If this procedure is not successful, please forward the e-mail with a summary of your experience to enquiries@oundlechoralsociety.org.uk. Additionally, be aware that when you click on links, you may be brought to other sites not operated by Oundle &amp; District Choral Society. You are responsible for information you provide these sites. We recommend that you review the privacy policy of any site that requests personal information.</p>
+
+          <p>4. How may I protect my privacy on the Internet and within Oundle &amp; District Choral Society? - Know the risks? If you provide your e-mail address to public domains such as chat rooms or newsgroups, or you provide it to web sites which don&#39;t respect your privacy, you may begin to receive unsolicited e-mail. Unsolicited e-mail is also known as spam. Oundle &amp; District Choral Society has strict rules prohibiting spam; it is generally a good idea to provide your e-mail address only to people or groups that you trust.</p>
+
+          <p>5. Educate yourself! Look for a privacy statement on every site you visit on the Web, and search for information on how to protect your privacy. Tell your children: &quot;Never talk to strangers!&quot; Teach children not to give out their names or other personal information. Tell them never to fill out online registration forms without your knowledge and consent. We always respect your personal privacy. We do collect information from you, but it is our company policy and priority to ensure that all personal information remains private and secure. To earn your trust and confidence in the internet and in Oundle &amp; District Choral Society, we are disclosing our privacy practices and the uses of the information we gather.</p>
+         </div>
+        <div class="modal-footer">
+          <button type="submit" class=" pull-right" data-dismiss="modal" style="border:red; background-color: red; color: white;">
+            <p>Close</p>
+          </button>
+        </div>
+      </div>
     </div>
   </div>
 </div>
+  <div id="music" class="bg-1">
+    <div class="container-fluid">
+      <h3 class="text-left"> Music</h3>
+      &nbsp;
+      <p>Spring 2023 - Karl Jenkins' The Armed Man and Rutter's Requiem</p>
+      <p>Autumn 2022 - Magnificat in D Major - J.S Bach and Mass in G Major - Franz Schubert </p>
 
-<!-- Image of location/map -->
-<img src="map.jpg" class="img-responsive" style="width:100%">
+      <p>Spring 2022 - Dvorak&#39;s Mass in D Minor, Vaughan Williams&#39; Five Mystical Songs and Arensen&#39;s Eja Mater</p>
 
-<!-- Footer -->
-<footer class="text-center">
-  <a class="up-arrow" href="#myPage" data-toggle="tooltip" title="TO TOP">
-    <span class="glyphicon glyphicon-chevron-up"></span>
-  </a><br><br>
-  <p>Bootstrap Theme Made By <a href="https://www.w3schools.com" data-toggle="tooltip" title="Visit w3schools">www.w3schools.com</a></p> 
-</footer>
+      <p>Autumn 2019 - Britten - St Nicolas, Chilcott - Time of Snow Mid Winter, Whitacre - Lux Aurumque, Rutter - Nativity, Candlelight &amp; Shepherds Pipe Carols.</p>
+
+      <p>Spring 2019 - Vivaldi GLORIA &amp; Tippett &#39;Five Spirituals</p>
+
+      <p>Autumn 2018 - G.F. Handel - Messiah Part 1</p>
+
+      <p>Spring 2018 - Gioacchino Rossini&rsquo;s - Petite Messe Solennelle</p>
+
+      <p>Autumn 2017 - Benjamin Britten&#39;s - A Ceremony of Carols</p>
+
+      <p>Spring 2017 - Handel&rsquo;s Israel in Egypt - A joint concert with Uppingham Choral Society and the Bardi Orchestra on Saturday 8th April 2017 in Uppingham</p>
+
+      <p>Spring 2016 - Creation by F. J. Haydn</p>
+
+      <p>Spring 2015 - Mass in C Minor K.427 by Mozart</p>
+
+      <p>Spring 2014 - Now is the Month of Maying - A Concert for May Day!</p>
+
+      <p>Autumn 2013 - The Nelson Mass by F. J. Haydn</p>
+
+      <p>Spring 2013 - Messe Solennelle by Louis Vierne (Oundle School Chapel)</p>
+
+      <p>Autumn 2012 - Messiah by G F Handel</p>
+
+      <p>Spring 2012 - The Music Makers by Edward Elgar (Peterborough Cathedral with Oundle School)</p>
+
+      <p>Autumn 2011 - Messa di Gloria by Giacomo Puccini</p>
+
+      <p>Spring 2011- Requiem by W. A. Mozart</p>
+    </div>
+  </div>
+  <br>
+  <h3 class="text-center" id="contact">Contact us</h3>  
+  <p class="text-center"><a class="red-text" href="mailto:janephughes@gmail.com">Jane Piercy-Hughes - Chairman </a></p>
+
+<p class="text-center"><a class="red-text" href="mailto:Ollerenshawjb@gmail.com">Janet Ollerenshaw - Secretary</a> or Phone 07979332744</p>
+
+<p class="text-center"><a class="red-text" href="mailto:tleuchars@btinternet.com">Tessa Leuchars - Website</a></p>
+<br />
+<p class="text-center"> <button class="btn-info btn-round" data-toggle="modal" data-target="#priv">Privacy Policy</button></p>
+<p class="text-center"><img src="ocsred.png" class="img-fluid"></p>
+</div>
+
 
 <script>
 $(document).ready(function(){
